@@ -145,8 +145,10 @@
     height: 50rem;
     display: flex;
     justify-content: space-evenly;
-    padding-top: 2rem;
+    padding-top: 5rem;
 }
+
+/* start in card 1 */
 
 .card1 {
     background-color: rgb(93, 3, 153);
@@ -182,14 +184,24 @@
     padding-top: 10px;
 }
 
-.card1 > .music-card1 > .button-card1 > button {
+.card1 > .music-card1 > .button-card1 > a button {
     width: 60px;
     height: 60px;
     border-radius: 40rem;
     border: none;
 }
 
+.card1 > .music-card1 > .button-card1 > a button > img { 
+   
+    justify-content: center;
+    width: 2rem;
 
+}
+
+/* end of card 1 */
+
+
+/* start in card 2 */
 
 
 .card2 {
@@ -201,9 +213,50 @@
 }
 
 .card2 > .card2-part {
-    
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
 }
 
+.card2 > .card2-part > img {
+   
+    width: 9rem;
+    border-radius: 10px;
+    
+
+
+}
+.card2 > .music-card2 > .title-card2 {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.card2 > .music-card2 > .title-card2 > h1 {
+    color: white;
+}
+
+.card2 > .music-card2 > .button-card2 {
+   display: flex;
+   justify-content: center;
+    padding-top: 10px;
+}
+
+.card2 > .music-card2 > .button-card2 > a button {
+    width: 60px;
+    height: 60px;
+    border-radius: 40rem;
+    border: none;
+ 
+}
+
+.card2 > .music-card2 > .button-card2 > a button > img { 
+    justify-content: center;
+    width: 2rem;
+}
+/* end of card 2 */
+
+
+/* start in card 3 */
 .card3 {
     background-color: rgb(93, 3, 153);
     border-radius: 20px;
@@ -212,9 +265,95 @@
 
 }
 
+.card3 > .card3-part {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.card3 > .card3-part > img {
+   
+    width: 9rem;
+    border-radius: 10px;
+    
+
+
+}
+.card3 > .music-card3 > .title-card3 {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.card3 > .music-card3 > .title-card3 > h1 {
+    color: white;
+}
+
+.card3 > .music-card3 > .button-card3 {
+   display: flex;
+   justify-content: center;
+    padding-top: 10px;
+}
+
+.card3 > .music-card3 > .button-card3 > a button {
+    width: 60px;
+    height: 60px;
+    border-radius: 40rem;
+    border: none;
+}
+
+.card3 > .music-card3 > .button-card3 > a button > img { 
+    justify-content: center;
+    width: 2rem;
+}
+/* end of card 3 */
+
+
+/* start in card 4 */
+
 .card4 {
     background-color: rgb(93, 3, 153);
     border-radius: 20px;
     width: 12rem;
     height: 20rem;
+}
+
+.card4 > .card4-part {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.card4 > .card4-part > img {
+   
+    width: 9rem;
+    border-radius: 10px;
+    
+
+
+}
+.card4 > .music-card4 > .title-card4 {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.card4 > .music-card4 > .title-card4 > h1 {
+    color: white;
+}
+
+.card4 > .music-card4 > .button-card4 {
+   display: flex;
+   justify-content: center;
+    padding-top: 10px;
+}
+
+.card4 > .music-card4 > .button-card4 > button {
+    width: 60px;
+    height: 60px;
+    border-radius: 40rem;
+    border: none;
+}
+
+.card4 > .music-card4 > .button-card4 > a button > img { 
+    justify-content: center;
+    width: 2rem;
 }
