@@ -142,7 +142,7 @@
 .about-music {
     display: flex;
     justify-content: center;
-    background-image: linear-gradient(100deg,rgb(3, 148, 117),rgb(0, 0, 0));
+    background-image: linear-gradient(120deg,#0df8d1,rgb(0, 0, 0));
     height: 5rem;
 }
 
@@ -166,7 +166,7 @@
 /* start in card 1 */
 
 .card1 {
-    background-color: #0df8d1;
+    background-image: linear-gradient(120deg,#0df8d1,rgb(0, 0, 0));
     border-radius: 20px;
     width: 12rem;
     height: 20rem;
@@ -227,7 +227,7 @@
 
 
 .card2 {
-    background-color: #0df8d1;
+    background-image: linear-gradient(120deg,#0df8d1,rgb(0, 0, 0));
     border-radius: 20px;
     width: 12rem;
     height: 20rem;
@@ -288,7 +288,7 @@
 
 /* start in card 3 */
 .card3 {
-    background-color: #0df8d1;
+    background-image: linear-gradient(120deg,#0df8d1,rgb(0, 0, 0));
     border-radius: 20px;
     width: 12rem;
     height: 20rem;
@@ -349,8 +349,7 @@
 /* start in card 4 */
 
 .card4 {
-    background-color: #0df8d1;
-    ;
+    background-image: linear-gradient(120deg,#0df8d1,rgb(0, 0, 0));
     border-radius: 20px;
     width: 12rem;
     height: 20rem;
@@ -453,7 +452,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #0df8d1;
+    background-image: linear-gradient(200deg,hsl(170, 94%, 51%),rgb(0, 0, 0));
     height: 5rem;
 }
 
@@ -475,7 +474,9 @@
     padding-top: 10rem;
     padding-bottom: 10rem;
     background-color: rgb(255, 255, 255);
-    background-image: url(/primeiroProjeto/textura/textura.jpg);
+    background-image: url(/LIMA2/primeiroProjeto/textura/textura.jpg);
+    background-position: center;
+    background-size: cover;
 }   
 
 .favorite-book > .my-catalog > .book {
