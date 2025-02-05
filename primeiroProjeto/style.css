@@ -8,7 +8,7 @@
 
 
 #header {
-    background-image: linear-gradient(280deg,rgb(0, 0, 0),#0df8d1);
+    background-image: linear-gradient(780deg,rgb(0, 0, 0),#0df8d1);
     display: flex;
     justify-content:space-between;
     align-items: center;
@@ -20,20 +20,29 @@
 
 #main-config {
     background-color: #000000;
-    height: 47.8rem;
     display: flex;
     justify-content: space-around;
-    padding-top: 80px;
+    padding-top: 100px;
     
 }
 
+marquee {
+    background-color: rgb(17, 17, 17);;
+    
+}
+
+
+
 /* starting From the header */
+
+/* start the Navegacion bar */
 
 .elements {
     display: flex;
     justify-content: center;
     padding-left: 40px;
 }
+
 
 .navegation-bar {
     display: flex;
@@ -54,6 +63,8 @@
     text-decoration: none;
     color: rgb(255, 255, 255);
 }
+/* end the Navegacion bar */
+
 
 
 
@@ -62,6 +73,8 @@
 #introduction_about_me {
     padding-top: 6rem;
 }
+/* start the about me section */
+
 
 #introduction_about_me > h1 {
    color: aliceblue;
@@ -135,7 +148,7 @@
 }
 
 .image > img {
-    width: 30rem
+    width: 40rem
     
 }
 
@@ -155,11 +168,17 @@
     font-style: normal;
 }
 
+/* end the about me section */
+
+/* start the music section */
+
+
 .my-musics {
     background-color: rgb(17, 17, 17);
-    height: 50rem;
+    height: 30rem;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 18rem;
     padding-top: 5rem;
 }
 
@@ -404,6 +423,11 @@
     padding-left: 4px;
 }
 
+/* start the music section */
+
+/* start the movies section */
+
+
 .favorite-movies {
     background-image: linear-gradient(120deg,#0df8d1,rgb(0, 0, 0));
     padding-bottom: 5rem;
@@ -432,9 +456,11 @@
 
 }
 
+
 .favorite-movies > .banner_movies > .movie_arrow > img {
     width: 20.5rem;
 }
+
 
 .favorite-movies > .banner_movies > .movie_Senna > img {
     width: 20.5rem;
@@ -444,9 +470,14 @@
     width: 17.3rem;
 }
 
+
 .favorite-movies > .banner_movies > .movie_sintonia > img {
     width: 17.5rem;
 }
+/* end the movies section */
+
+/* start the book section */
+
 
 .favorite-book > .my-books {
     display: flex;
@@ -474,7 +505,7 @@
     padding-top: 10rem;
     padding-bottom: 10rem;
     background-color: rgb(255, 255, 255);
-    background-image: url(/LIMA2/primeiroProjeto/textura/textura.jpg);
+    background-image: url(./textura/textura.jpg);
     background-position: center;
     background-size: cover;
 }   
@@ -495,7 +526,10 @@
 
 .favorite-book > .my-catalog > .book2 > img {
     width: 20rem;
+
 }
+/* end the book section */
+
 
 /* the end of main*/
 
